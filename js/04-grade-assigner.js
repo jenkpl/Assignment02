@@ -1,5 +1,5 @@
 let grade = prompt("Please enter your numerical grade.");
-if (grade>100 || grade <0) {
+if (grade>100 || grade <1) {
     alert("Try again. The number must be between 1-100.")
 }
 if (grade >=90){
